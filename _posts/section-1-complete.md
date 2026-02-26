@@ -37,7 +37,7 @@ Section 1 was quiet work. But I think it was the right work to start with.
 
 Section 2 shifts into territory I'm genuinely curious about: learning to use LLMs as engineering tools rather than just as assistants.
 
-I'll be running structured experiments: comparing how outputs change between a basic prompt and a role-based prompt, testing few-shot examples, and documenting where models are reliable and where they're not. I'll also be building a reusable `llm_request()` function, something I can use as a consistent interface as the projects get more complex, and making a decision about which LLM provider to use for my capstone.
+I'll be running structured experiments: comparing how outputs change between a basic prompt and a role-based prompt, testing few-shot examples, and documenting where models are reliable and where they're not. I'll also be making a decision about which LLM provider to use for my capstone.
 
 What I'm most interested in is developing a more honest mental model of how these systems actually behave. Not the hype version, not the dismissive version. Something grounded in actual observation. That feels like the right foundation before building anything on top of it.
 
