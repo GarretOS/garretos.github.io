@@ -1,0 +1,104 @@
+---
+---
+
+@use 'main{% if jekyll.environment == "production" %}.bundle{% endif %}';
+
+/* ==============================================
+   From Campaigns to Code — Custom Color Scheme
+   Professional Navy Blue Theme
+   ============================================== */
+
+/* Light Mode */
+html:not([data-mode]),
+html[data-mode='light'] {
+  --sidebar-bg: #1a2744;           /* Deep navy sidebar */
+  --sidebar-text: #e8edf5;         /* Light text on sidebar */
+  --sidebar-muted-text: #a8b8d0;   /* Muted sidebar text */
+  --sidebar-active-text: #ffffff;  /* Active link text */
+  --sidebar-hover-bg: #243258;     /* Hover state on sidebar */
+  --sidebar-border-color: #243258; /* Sidebar border */
+
+  --link-color: #1a56a0;           /* Navy blue links */
+  --link-underline-color: #1a56a0;
+
+  --main-bg: #ffffff;              /* Clean white content area */
+  --card-bg: #f8fafc;              /* Slightly off-white cards */
+  --card-hovor-bg: #f0f4f8;        /* Card hover state */
+  --card-shadow: rgba(26, 39, 68, 0.08) 0 4px 16px;
+
+  --heading-color: #1a2744;        /* Navy headings */
+  --text-color: #2d3748;           /* Dark gray body text */
+  --text-muted-color: #64748b;     /* Muted text */
+  --text-muted-highlight-color: #475569;
+
+  --tag-bg: #e8edf5;               /* Light navy tag background */
+  --tag-border: #c5d0e0;
+  --tag-text: #1a2744;
+  --tag-hover: #1a56a0;
+
+  --btn-border-color: #1a56a0;
+  --btn-backtotop-color: #1a2744;
+  --btn-backtotop-border-color: #c5d0e0;
+
+  --search-border-color: #c5d0e0;
+  --search-icon-color: #64748b;
+  --input-focus-border-color: #1a56a0;
+
+  --toc-highlight: #1a56a0;        /* Table of contents active */
+  --blockquote-border-color: #1a56a0;
+  --blockquote-text-color: #475569;
+
+  --code-bg: #f0f4f8;              /* Light code background */
+  --code-color: #1a2744;
+  --highlight-bg-color: #e8f0fb;
+
+  --footer-bg-color: #f8fafc;
+  --footer-text-color: #64748b;
+}
+
+/* Dark Mode */
+html[data-mode='dark'] {
+  --sidebar-bg: #0f1729;           /* Darker navy sidebar */
+  --sidebar-text: #e8edf5;
+  --sidebar-muted-text: #8899b0;
+  --sidebar-active-text: #ffffff;
+  --sidebar-hover-bg: #1a2744;
+  --sidebar-border-color: #1a2744;
+
+  --link-color: #5b9bd5;           /* Lighter blue for dark mode */
+  --link-underline-color: #5b9bd5;
+
+  --main-bg: #121826;              /* Dark background */
+  --card-bg: #1a2234;              /* Dark card background */
+  --card-hovor-bg: #1e2a40;
+  --card-shadow: rgba(0, 0, 0, 0.3) 0 4px 16px;
+
+  --heading-color: #e8edf5;        /* Light headings in dark mode */
+  --text-color: #c8d3e0;           /* Light body text */
+  --text-muted-color: #8899b0;
+  --text-muted-highlight-color: #a8b8d0;
+
+  --tag-bg: #1a2744;
+  --tag-border: #243258;
+  --tag-text: #a8b8d0;
+  --tag-hover: #5b9bd5;
+
+  --btn-border-color: #2a3f6b;
+  --btn-backtotop-color: #a8b8d0;
+  --btn-backtotop-border-color: #2a3f6b;
+
+  --search-border-color: #2a3f6b;
+  --search-icon-color: #8899b0;
+  --input-focus-border-color: #5b9bd5;
+
+  --toc-highlight: #5b9bd5;
+  --blockquote-border-color: #5b9bd5;
+  --blockquote-text-color: #8899b0;
+
+  --code-bg: #1a2234;
+  --code-color: #c8d3e0;
+  --highlight-bg-color: #1e2a40;
+
+  --footer-bg-color: #0f1729;
+  --footer-text-color: #8899b0;
+}
