@@ -84,7 +84,7 @@ I had never used Linux in my life. But I didn't let that stop me.
 
 I asked ChatGPT to give me step-by-step instructions on how to install VS Code and set up a local Python environment on Linux Mint. I followed the instructions, encountered some things I didn't understand, asked clarifying questions, and eventually made it work.
 
-![VS Code running on Linux Mint with terminal open](/assets/img/posts/learning-ai-backwards-section1/vscode-linux-mint.png)
+![VS Code running on Linux Mint with terminal open](/assets/img/posts/learning-ai-backwards-section1/linux-python-venv.png)
 _Setting up a Python environment on an OS I had never used before. The terminal at the bottom is proof it actually worked._
 
 That experience set the tone for how I'm approaching this entire learning journey.
