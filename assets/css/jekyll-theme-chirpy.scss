@@ -142,22 +142,21 @@ html[data-mode='dark'] {
 }
 
 /* ==============================================
-   Mobile Topbar Fix (Light Mode Only)
+   Mobile Topbar Fix (Light Mode + Mobile Only)
    ============================================== */
 
-html:not([data-mode]),
-html[data-mode='light'] {
+@media (max-width: 768px) {
+  html:not([data-mode]),
+  html[data-mode='light'] {
 
-  #topbar {
-    background-color: #2C3E50; /* deep blue-gray */
+    #topbar {
+      background-color: #2C3E50; /* deep blue-gray */
+    }
+
+    #topbar-title,
+    #topbar i,
+    #topbar a {
+      color: #FFFFFF !important;
+    }
   }
-
-  #topbar-title {
-    color: #FFFFFF;
-  }
-
-  #topbar i {
-    color: #FFFFFF;
-  }
-
 }
