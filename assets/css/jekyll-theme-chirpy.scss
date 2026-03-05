@@ -140,3 +140,24 @@ html[data-mode='dark'] {
     color: #3498DB; /* footer-hover-col (bright but still “trusty”) */
   }
 }
+
+/* ==============================================
+   Mobile Topbar Fix (Light Mode Only)
+   ============================================== */
+
+html:not([data-mode]),
+html[data-mode='light'] {
+
+  #topbar {
+    background-color: #2C3E50; /* deep blue-gray */
+  }
+
+  #topbar-title {
+    color: #FFFFFF;
+  }
+
+  #topbar i {
+    color: #FFFFFF;
+  }
+
+}
