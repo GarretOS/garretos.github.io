@@ -12,12 +12,13 @@
 html:not([data-mode]),
 html[data-mode='light'] {
   --sidebar-bg: #1a2744;           /* Deep navy sidebar */
-  --sidebar-text: #e8edf5;         /* Light text on sidebar */
-  --sidebar-muted-text: #a8b8d0;   /* Muted sidebar text */
+  --sidebar-text: #ffffff;         /* Light text on sidebar */
+  --sidebar-muted-text: #c8d8f0;   /* Muted sidebar text */
   --sidebar-active-text: #ffffff;  /* Active link text */
   --sidebar-hover-bg: #243258;     /* Hover state on sidebar */
   --sidebar-border-color: #243258; /* Sidebar border */
-
+  --nav-text: #ffffff;
+  
   --link-color: #1a56a0;           /* Navy blue links */
   --link-underline-color: #1a56a0;
 
@@ -59,11 +60,12 @@ html[data-mode='light'] {
 /* Dark Mode */
 html[data-mode='dark'] {
   --sidebar-bg: #0f1729;           /* Darker navy sidebar */
-  --sidebar-text: #e8edf5;
-  --sidebar-muted-text: #8899b0;
+  --sidebar-text: #ffffff;
+  --sidebar-muted-text: #c8d8f0;
   --sidebar-active-text: #ffffff;
   --sidebar-hover-bg: #1a2744;
   --sidebar-border-color: #1a2744;
+  --nav-text: #ffffff;
 
   --link-color: #5b9bd5;           /* Lighter blue for dark mode */
   --link-underline-color: #5b9bd5;
