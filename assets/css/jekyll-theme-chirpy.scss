@@ -160,3 +160,18 @@ html[data-mode='dark'] {
     }
   }
 }
+
+/* ==============================================
+   Desktop Dark Mode Topbar Fix
+   ============================================== */
+
+@media (min-width: 769px) {
+  html[data-mode='dark'] {
+
+    #topbar {
+      background: transparent;
+      border-bottom: 1px solid #253549;
+    }
+
+  }
+}
