@@ -14,12 +14,12 @@ timezone: Asia/Manila
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: From Campaigns to Code # the main title
+title: The Accidental Engineer # the main title
 
-tagline: A marketer learning to build AI systems. In public. From scratch. # it will display as the subtitle
+tagline: Engineer by training. Marketer by trade. AI builder by choice. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  An honest account of transitioning from Performance Marketing to AI Engineering. Project-first learning, real struggles, and everything in between..
+  "I studied Chemical Engineering, spent years in marketing, and somehow ended up building AI systems. This blog documents that journey honestly: the projects, the struggles, the slow progress, and everything I learn along the way. Built in public. No shortcuts."
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
