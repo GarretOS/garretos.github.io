@@ -5,7 +5,7 @@ categories: [AI Engineering, Learning Journey]
 tags: [AI Engineering Transition, Python Foundations, Build in Public, LLMs]
 image:
   path: /assets/img/posts/learning-ai-backwards-section1/hero.jpg
-  alt: "A laptop and notebook on a wooden desk. The unglamorous beginning of every engineering journey."
+  alt: "A laptop and notebook on a wooden desk. The unglamorous beginning of my AI engineering journey."
 ---
 
 Most people start learning AI Engineering by mastering a programming language first. Only then do they begin building projects and apps.
