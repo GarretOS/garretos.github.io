@@ -4,103 +4,139 @@
 @use 'main{% if jekyll.environment == "production" %}.bundle{% endif %}';
 
 /* ==============================================
-   From Campaigns to Code — Custom Color Scheme
-   Professional Navy Blue Theme
+   Beautiful Jekyll → Chirpy Color Port
+   Trustworthy Professional Color Scheme
    ============================================== */
 
 /* Light Mode */
 html:not([data-mode]),
 html[data-mode='light'] {
-  --sidebar-bg: #1a2744;           /* Deep navy sidebar */
-  --sidebar-text: #ffffff;         /* Light text on sidebar */
-  --sidebar-muted-text: #c8d8f0;   /* Muted sidebar text */
-  --sidebar-active-text: #ffffff;  /* Active link text */
-  --sidebar-hover-bg: #243258;     /* Hover state on sidebar */
-  --sidebar-border-color: #243258; /* Sidebar border */
-  --nav-text: #ffffff;
-  
-  --link-color: #1a56a0;           /* Navy blue links */
-  --link-underline-color: #1a56a0;
+  /* Page */
+  --main-bg: #FFFFFF;              /* page-col */
+  --text-color: #2C3E50;           /* text-col */
+  --heading-color: #2C3E50;
 
-  --main-bg: #ffffff;              /* Clean white content area */
-  --card-bg: #f8fafc;              /* Slightly off-white cards */
-  --card-hovor-bg: #f0f4f8;        /* Card hover state */
-  --card-shadow: rgba(26, 39, 68, 0.08) 0 4px 16px;
+  /* Links */
+  --link-color: #2E5C8A;           /* link-col */
+  --link-underline-color: #2E5C8A;
 
-  --heading-color: #1a2744;        /* Navy headings */
-  --text-color: #2d3748;           /* Dark gray body text */
-  --text-muted-color: #64748b;     /* Muted text */
+  /* Sidebar / Nav */
+  --sidebar-bg: #E8EDF2;           /* navbar-col */
+  --sidebar-text: #2C3E50;         /* navbar-text-col */
+  --sidebar-muted-text: #2C3E50;
+  --sidebar-active-text: #2C3E50;
+  --sidebar-hover-bg: #E1E8ED;     /* navbar-border-col as hover fill */
+  --sidebar-border-color: #E1E8ED; /* navbar-border-col */
+  --nav-text: #2C3E50;
+
+  /* Cards */
+  --card-bg: #F8FAFC;
+  --card-hovor-bg: #EEF3F7;        /* (Chirpy variable name uses hovor) */
+  --card-shadow: rgba(44, 62, 80, 0.08) 0 4px 16px;
+
+  /* Muted text */
+  --text-muted-color: #64748b;
   --text-muted-highlight-color: #475569;
 
-  --tag-bg: #e8edf5;               /* Light navy tag background */
-  --tag-border: #c5d0e0;
-  --tag-text: #1a2744;
-  --tag-hover: #1a56a0;
+  /* Tags */
+  --tag-bg: #E8EDF2;
+  --tag-border: #E1E8ED;
+  --tag-text: #2C3E50;
+  --tag-hover: #2E5C8A;
 
-  --btn-border-color: #1a56a0;
-  --btn-backtotop-color: #1a2744;
-  --btn-backtotop-border-color: #c5d0e0;
+  /* Buttons + inputs */
+  --btn-border-color: #2E5C8A;
+  --btn-backtotop-color: #2C3E50;
+  --btn-backtotop-border-color: #E1E8ED;
 
-  --search-border-color: #c5d0e0;
+  --search-border-color: #E1E8ED;
   --search-icon-color: #64748b;
-  --input-focus-border-color: #1a56a0;
+  --input-focus-border-color: #2E5C8A;
 
-  --toc-highlight: #1a56a0;        /* Table of contents active */
-  --blockquote-border-color: #1a56a0;
+  /* TOC + blockquote */
+  --toc-highlight: #2E5C8A;
+  --blockquote-border-color: #2E5C8A;
   --blockquote-text-color: #475569;
 
-  --code-bg: #f0f4f8;              /* Light code background */
-  --code-color: #1a2744;
-  --highlight-bg-color: #e8f0fb;
+  /* Code */
+  --code-bg: #F0F4F8;
+  --code-color: #2C3E50;
+  --highlight-bg-color: #E8F0FB;
 
-  --footer-bg-color: #f8fafc;
-  --footer-text-color: #64748b;
+  /* Footer (match your BJ scheme) */
+  --footer-bg-color: #34495E;      /* footer-col */
+  --footer-text-color: #BDC3C7;    /* footer-text-col */
 }
 
-/* Dark Mode */
+/* Dark Mode (aligned with your palette: navy + readable blues) */
 html[data-mode='dark'] {
-  --sidebar-bg: #0f1729;           /* Darker navy sidebar */
-  --sidebar-text: #ffffff;
-  --sidebar-muted-text: #c8d8f0;
-  --sidebar-active-text: #ffffff;
-  --sidebar-hover-bg: #1a2744;
-  --sidebar-border-color: #1a2744;
-  --nav-text: #ffffff;
+  /* Page */
+  --main-bg: #0F1720;
+  --text-color: #D7DEE6;
+  --heading-color: #FFFFFF;
 
-  --link-color: #5b9bd5;           /* Lighter blue for dark mode */
-  --link-underline-color: #5b9bd5;
+  /* Links */
+  --link-color: #5DADE2;           /* footer-link-col */
+  --link-underline-color: #5DADE2;
 
-  --main-bg: #121826;              /* Dark background */
-  --card-bg: #1a2234;              /* Dark card background */
-  --card-hovor-bg: #1e2a40;
-  --card-shadow: rgba(0, 0, 0, 0.3) 0 4px 16px;
+  /* Sidebar / Nav */
+  --sidebar-bg: #111A24;
+  --sidebar-text: #D7DEE6;
+  --sidebar-muted-text: #AAB7C4;
+  --sidebar-active-text: #FFFFFF;
+  --sidebar-hover-bg: #1B2736;
+  --sidebar-border-color: #1B2736;
+  --nav-text: #D7DEE6;
 
-  --heading-color: #e8edf5;        /* Light headings in dark mode */
-  --text-color: #c8d3e0;           /* Light body text */
-  --text-muted-color: #8899b0;
-  --text-muted-highlight-color: #a8b8d0;
+  /* Cards */
+  --card-bg: #151F2B;
+  --card-hovor-bg: #1B2736;
+  --card-shadow: rgba(0, 0, 0, 0.35) 0 4px 16px;
 
-  --tag-bg: #1a2744;
-  --tag-border: #243258;
-  --tag-text: #a8b8d0;
-  --tag-hover: #5b9bd5;
+  /* Muted text */
+  --text-muted-color: #AAB7C4;
+  --text-muted-highlight-color: #C3CED8;
 
-  --btn-border-color: #2a3f6b;
-  --btn-backtotop-color: #a8b8d0;
-  --btn-backtotop-border-color: #2a3f6b;
+  /* Tags */
+  --tag-bg: #1B2736;
+  --tag-border: #253549;
+  --tag-text: #D7DEE6;
+  --tag-hover: #5DADE2;
 
-  --search-border-color: #2a3f6b;
-  --search-icon-color: #8899b0;
-  --input-focus-border-color: #5b9bd5;
+  /* Buttons + inputs */
+  --btn-border-color: #253549;
+  --btn-backtotop-color: #D7DEE6;
+  --btn-backtotop-border-color: #253549;
 
-  --toc-highlight: #5b9bd5;
-  --blockquote-border-color: #5b9bd5;
-  --blockquote-text-color: #8899b0;
+  --search-border-color: #253549;
+  --search-icon-color: #AAB7C4;
+  --input-focus-border-color: #5DADE2;
 
-  --code-bg: #1a2234;
-  --code-color: #c8d3e0;
-  --highlight-bg-color: #1e2a40;
+  /* TOC + blockquote */
+  --toc-highlight: #5DADE2;
+  --blockquote-border-color: #5DADE2;
+  --blockquote-text-color: #AAB7C4;
 
-  --footer-bg-color: #0f1729;
-  --footer-text-color: #8899b0;
+  /* Code */
+  --code-bg: #111A24;
+  --code-color: #D7DEE6;
+  --highlight-bg-color: #1B2736;
+
+  /* Footer */
+  --footer-bg-color: #0B1220;
+  --footer-text-color: #AAB7C4;
+}
+
+/* Link hover colors (exactly matching your BJ hover choices) */
+html:not([data-mode]),
+html[data-mode='light'] {
+  a:hover {
+    color: #1A3A52; /* hover-col */
+  }
+}
+
+html[data-mode='dark'] {
+  a:hover {
+    color: #3498DB; /* footer-hover-col (bright but still “trusty”) */
+  }
 }
