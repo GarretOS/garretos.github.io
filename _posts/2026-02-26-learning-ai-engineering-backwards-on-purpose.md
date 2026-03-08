@@ -2,7 +2,7 @@
 title: "Learning AI Engineering Backwards (On Purpose)"
 date: 2026-02-26 00:00:00 +0800
 categories: [AI Engineering, Learning Journey]
-tags: [AI Engineering Transition, Python Foundations, Build in Public, LLMs]
+tags: [AI Engineering Upskilling, Python Foundations, Build in Public, LLMs]
 image:
   path: /assets/img/posts/learning-ai-backwards-section1/hero.jpg
   alt: "A laptop and notebook on a wooden desk. The unglamorous beginning of my AI engineering journey."
@@ -18,7 +18,7 @@ I want to build functional projects right away that I can use in my life.
 
 ## Why I'm Learning This Way
 
-I'm currently transitioning from a Performance Marketing Analyst to an AI Engineer. With everyday responsibilities already on my plate, I need to find a way to make the most of my learning time.
+I'm an Amazon and Walmart PPC Analyst who is adding AI Engineering to my skillset. With everyday responsibilities already on my plate, I need to find a way to make the most of my learning time.
 
 I came across one of [Louis-François Bouchard's](https://towardsai.net/) posts on my LinkedIn feed last year. It was about learning Python as a practical tool for building AI applications. The project-first approach caught my attention, and I decided to enroll.
 
@@ -126,7 +126,7 @@ But I knew skipping these would cause problems later. Things get complicated fas
 
 Marketing taught me to optimize. Engineering taught me to design. I spent years doing the first one, but the second one never really left.
 
-Turns out, I was always an engineer. I just took a long detour through marketing to get back here.
+Turns out, the engineer in me never left. Marketing sharpened how I think about systems. Now I'm building with both.
 
 ## What's Next
 
@@ -136,8 +136,8 @@ The foundation is set. Now the interesting part begins.
 
 ---
 
-I'm documenting this publicly because I think the messy, unglamorous parts of a career transition are worth showing. Not just the finished projects and polished demos.
+I'm documenting this publicly because I think the messy, unglamorous parts of learning something hard are worth showing. Not just the finished projects and polished demos.
 
-If you're somewhere in the middle of your own transition, I hope something here was useful.
+If you're somewhere in the middle of your own learning journey, I hope something here was useful.
 
 Section 1 done. On to Section 2.
