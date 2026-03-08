@@ -126,7 +126,7 @@ But I knew skipping these would cause problems later. Things get complicated fas
 
 Marketing taught me to optimize. Engineering taught me to design. I spent years doing the first one, but the second one never really left.
 
-Turns out, the engineer in me never left. Marketing sharpened how I think about systems. Now I'm building with both.
+Turns out, I was always an engineer. Marketing sharpened me. Now I have the strength of both. And I'm building with both.
 
 ## What's Next
 
