@@ -58,7 +58,7 @@ One thing worth mentioning though is that I intentionally didn't install most pa
 
 It's easy to consume courses, going from one tutorial to another. But that progress bar doesn't mean anything if you forget everything right away.
 
-Using [NotebookLM](https://notebooklm.google.com/), I produced summaries, slide decks and mindmaps from the course material. I also made some quizzes to test whether I understood the concepts from what I watched.
+Using [NotebookLM](https://notebooklm.google.com/), I produced summaries, slide decks and mind maps from the course material. I also made some quizzes to test whether I understood the concepts from what I watched.
 
 ![NotebookLM workspace showing sources and study guides](/assets/img/posts/learning-ai-backwards-section1/notebooklm-workspace.png)
 _This is what active learning looks like. The course videos are the input and the synthesis, mind maps, and study guides are the output._
