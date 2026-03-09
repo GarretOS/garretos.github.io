@@ -1,18 +1,4 @@
----
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
----
-
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
----
-title: About
-icon: fas fa-user
-order: 4
----
-
-![Garret Sumagang](/assets/img/site/garret-sumagang-profile.png){: width="300" .left }
+![Garret Sumagang](/assets/img/site/garret-sumagang-profile.png){: width="200" .right }
 
 I didn't plan on building AI systems.
 
