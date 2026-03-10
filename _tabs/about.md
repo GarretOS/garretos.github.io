@@ -3,7 +3,7 @@ title: About
 icon: fas fa-user
 order: 4
 ---
-![Garret Sumagang](/assets/img/site/garret-sumagang-profile.png){: width="200" .right }
+![Garret Sumagang](/assets/img/site/garret-sumagang-profile.jpg){: width="200" .right }
 
 I didn't plan on building AI systems.
 
