@@ -148,15 +148,14 @@ html[data-mode='dark'] {
 @media (max-width: 768px) {
   html:not([data-mode]),
   html[data-mode='light'] {
-
     #topbar {
-      background-color: #2C3E50; /* deep blue-gray */
+      background-color: transparent;
+      border-bottom: none;
     }
-
     #topbar-title,
     #topbar i,
     #topbar a {
-      color: #FFFFFF !important;
+      color: #2C3E50 !important;
     }
   }
 }
@@ -170,8 +169,18 @@ html[data-mode='dark'] {
 
     #topbar {
       background: transparent;
-      border-bottom: 1px solid #253549;
+      border-bottom: none;
     }
 
+  }
+}
+/* ==============================================
+   Topbar Wrapper Blend Fix (Dark Mode)
+   ============================================== */
+html[data-mode='dark'] {
+  #topbar-wrapper {
+    background-color: var(--main-bg) !important;
+    box-shadow: none !important;
+    border-bottom: none !important;
   }
 }
