@@ -11,7 +11,7 @@ Everyone tells you to use AI when you're learning to code. Open ChatGPT. Ask it 
 
 Nobody tells you that using AI badly is just as slow as not using it at all.
 
-That's the thing I didn't expect from Section 2 of Louis-François Bouchard's Python for AI Engineering course.
+That's the thing I didn't expect from Section 2 of [Louis-François Bouchard's Python for AI Engineering course](https://academy.towardsai.net/courses/python-for-genai).
 
 On the surface, the section is a comparison of the top AI tools like ChatGPT, Claude and Gemini. How they were built, what makes each one different, when you might use one over another.
 
@@ -25,9 +25,9 @@ This post is about that lesson. And about the experiment that proved it.
 
 ## A Quick Note on the Tools
 
-I use ChatGPT Plus as my main tool. The experiment in this post ran entirely on it.
+I use [ChatGPT Plus](https://chat.openai.com) as my main tool. The experiment in this post ran entirely on it.
 
-Claude and Gemini are part of the course material and I have free accounts on both. But this isn't a three-way comparison. It's a prompting experiment on one tool with one dataset.
+[Claude](https://claude.ai) and [Gemini](https://gemini.google.com) are part of the course material and I have free accounts on both. But this isn't a three-way comparison. It's a prompting experiment on one tool with one dataset.
 
 The course gives each tool its own lane. ChatGPT for versatility and general tasks. Claude for structured content and nuanced reasoning. Gemini for scale, with a context window large enough to process entire codebases in a single pass.
 
@@ -329,7 +329,7 @@ And honestly, that surprised me. I expected the techniques to be the main lesson
 
 ## What's Next
 
-This experiment came from Section 2 of Louis-François Bouchard's Python for AI Engineering course. The theory section. The part where you learn how the tools work before you touch any code.
+This experiment came from Section 2 of [Louis-François Bouchard's Python for AI Engineering course](https://academy.towardsai.net/courses/python-for-genai). The theory section. The part where you learn how the tools work before you touch any code. If you missed it, [here's how this started](https://garretos.github.io/posts/learning-ai-engineering-backwards-on-purpose/).
 
 Section 3 is where the building starts.
 
